@@ -73,7 +73,7 @@ img {
 
 /*===== CLASS CSS ===== */
 .section-title {
-  position: relative;
+  /* position: relative; */
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-top: var(--mb-2);
@@ -82,7 +82,7 @@ img {
 }
 .text-title{
   color: var(--first-color);
-  font-family: cursive;
+  font-family:'Courier New', Courier, monospace;
 }
 .title{
   text-transform: capitalize !important ;
@@ -103,7 +103,7 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
@@ -326,34 +326,15 @@ img {
   .home {
     padding: 8rem 0 2rem;
   }
-  .home__img {
-    width: 400px;
-    bottom: 10%;
-  }
-  .about__container {
-    padding-top: 2rem;
-  }
-  .about__img img {
-    width: 300px;
-  }
-  .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    align-items: center;
-    text-align: initial;
-  }
-  .work__container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-  }
-  .section {
+  .section{
+    margin-top: 1.8rem !important;
     padding-top: 5rem;
     padding-bottom: 2rem;
   }
   
 }
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -364,4 +345,4 @@ img {
   .home__img {
     width: 450px;
   }
-} */
+}
