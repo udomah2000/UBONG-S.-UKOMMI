@@ -89,6 +89,14 @@ img {
   text-align: center;
   font-size: 18px;
 }
+.home{
+  background-image: url(../img/pic-10.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
 
 .section-title::after {
   position: absolute;
