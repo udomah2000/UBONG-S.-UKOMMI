@@ -87,6 +87,7 @@ img {
 .title{
   text-transform: capitalize !important ;
   text-align: center;
+  font-size: 18px;
 }
 
 .section-title::after {
@@ -345,9 +346,14 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -358,4 +364,4 @@ img {
   .home__img {
     width: 450px;
   }
-}
+} */
