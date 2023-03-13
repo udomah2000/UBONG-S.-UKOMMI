@@ -378,10 +378,8 @@ img {
     justify-content: center !important;
     
   }
-  .section {
-    margin-top: 3rem !important;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+  .item-container {
+    margin-top: 4rem !important;
   }
 
 
