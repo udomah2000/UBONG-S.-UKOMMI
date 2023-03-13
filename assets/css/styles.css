@@ -351,7 +351,7 @@ img {
   }
   .nav__link {
     color: #fff !important;
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
     position:static;
   }
   .nav__list {
@@ -378,6 +378,12 @@ img {
     justify-content: center !important;
     
   }
+  .section {
+    margin-top: 3rem !important;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
 
 }
 
