@@ -353,9 +353,9 @@ img {
     color: #fff !important;
     font-size: 1.2rem !important;
     position:static;
-    font-weight: lighter;
+    font-weight: lighter !important;
     font-family: 'Trebuchet MS', 
-    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
   }
   .nav__list {
     display:block !important;
